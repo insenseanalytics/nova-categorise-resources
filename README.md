@@ -49,7 +49,7 @@ public static $category = "Your Category label";
 
 ### Security
 
-If you discover any security related issues, please email bowersbros@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email paras@insenseanalytics.com instead of using the issue tracker.
 
 ## Credits
 
