@@ -5,7 +5,6 @@ This is a fork of [alexbowers/nova-categorise-resources](https://github.com/alex
 # Group and categorise your nova resources
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/insenseanalytics/nova-categorise-resources.svg?style=flat-square)](https://packagist.org/packages/insenseanalytics/nova-categorise-resources)
-[![Quality Score](https://img.shields.io/scrutinizer/g/insenseanalytics/nova-categorise-resources.svg?style=flat-square)](https://scrutinizer-ci.com/g/insenseanalytics/nova-categorise-resources)
 [![Total Downloads](https://img.shields.io/packagist/dt/insenseanalytics/nova-categorise-resources.svg?style=flat-square)](https://packagist.org/packages/insenseanalytics/nova-categorise-resources)
 
 
