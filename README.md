@@ -1,18 +1,12 @@
-# Deprecated
+# Nova Categorise Resources
 
-This is now covered in Nova 1.0.18+ so does not need a package for it:
-
-```php
-public static $group = 'name'; // you may also use a public static method of the same name
-```
-
-You may continue to use this package if you want to be able to collapse the groups, however I'd recommend going with the core features of Nova.
+This is a fork of [alexbowers/nova-categorise-resources](https://github.com/alexbowers/nova-categorise-resources) turned into its own separate package on Composer. The only difference is that by default the groups are collapsed.
 
 # Group and categorise your nova resources
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/alexbowers/nova-categorise-resources.svg?style=flat-square)](https://packagist.org/packages/alexbowers/nova-categorise-resources)
-[![Quality Score](https://img.shields.io/scrutinizer/g/alexbowers/nova-categorise-resources.svg?style=flat-square)](https://scrutinizer-ci.com/g/alexbowers/nova-categorise-resources)
-[![Total Downloads](https://img.shields.io/packagist/dt/alexbowers/nova-categorise-resources.svg?style=flat-square)](https://packagist.org/packages/alexbowers/nova-categorise-resources)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/insenseanalytics/nova-categorise-resources.svg?style=flat-square)](https://packagist.org/packages/insenseanalytics/nova-categorise-resources)
+[![Quality Score](https://img.shields.io/scrutinizer/g/insenseanalytics/nova-categorise-resources.svg?style=flat-square)](https://scrutinizer-ci.com/g/insenseanalytics/nova-categorise-resources)
+[![Total Downloads](https://img.shields.io/packagist/dt/insenseanalytics/nova-categorise-resources.svg?style=flat-square)](https://packagist.org/packages/insenseanalytics/nova-categorise-resources)
 
 
 
@@ -35,14 +29,14 @@ If there is only one category, it will not be collapsable, but will instead have
 
 if there is only one category, and it is empty, then it will act as Nova does by default.
      
-![Categorise Resources Example](https://github.com/alexbowers/nova-categorise-resources/blob/master/screenshots/example.gif?raw=true)
+![Categorise Resources Example](https://github.com/insenseanalytics/nova-categorise-resources/blob/master/screenshots/example.gif?raw=true)
 
 ## Installation
 
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require alexbowers/nova-categorise-resources
+composer require insenseanalytics/nova-categorise-resources
 ```
 
 ## Usage

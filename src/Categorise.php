@@ -1,6 +1,6 @@
 <?php
 
-namespace AlexBowers\NovaCategoriseResources;
+namespace InsenseAnalytics\NovaCategoriseResources;
 
 trait Categorise
 {

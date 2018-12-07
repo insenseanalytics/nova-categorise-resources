@@ -20,7 +20,7 @@
         },
         data() {
             return {
-                expanded: true,
+                expanded: false,
             };
         },
         methods: {

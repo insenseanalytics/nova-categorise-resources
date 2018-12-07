@@ -1,16 +1,21 @@
 {
-    "name": "alexbowers/nova-categorise-resources",
+    "name": "insenseanalytics/nova-categorise-resources",
     "description": "Group and categorise your nova resources",
     "keywords": [
         "laravel",
         "nova"
     ],
-    "homepage": "https://github.com/alexbowers/nova-categorise-resources",
+    "homepage": "https://github.com/insenseanalytics/nova-categorise-resources",
     "license": "MIT",
     "authors": [
         {
             "name": "Alex Bowers",
             "email": "bowersbros@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Paras Malhotra",
+            "email": "paras@insenseanalytics.com",
             "role": "Developer"
         }
     ],
@@ -19,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AlexBowers\\NovaCategoriseResources\\": "src/"
+            "InsenseAnalytics\\NovaCategoriseResources\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AlexBowers\\NovaCategoriseResources\\ToolServiceProvider"
+                "InsenseAnalytics\\NovaCategoriseResources\\ToolServiceProvider"
             ]
         }
     },

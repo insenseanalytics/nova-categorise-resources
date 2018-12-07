@@ -1,6 +1,6 @@
 <?php
 
-namespace AlexBowers\NovaCategoriseResources;
+namespace InsenseAnalytics\NovaCategoriseResources;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

@@ -7,7 +7,7 @@
         <span class="sidebar-label">{{ __('Resources') }}</span>
     </h3>
 
-    @foreach (\AlexBowers\NovaCategoriseResources\NovaCategorise::availableResourcesGrouped(request()) as $group => $resouces)
+    @foreach (\InsenseAnalytics\NovaCategoriseResources\NovaCategorise::availableResourcesGrouped(request()) as $group => $resouces)
 
     <grouped-resource-collapsable header="{{ $group }}" :last="@json($loop->last)">
         @foreach ($resouces as $key => $resource)
